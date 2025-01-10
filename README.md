@@ -1,4 +1,4 @@
-# Internal Community Hub for Developers
+# Lumina for Developers
 
 This platform serves as an internal community hub for developers at our company. It provides various features to categorize developers, publish contributions, reward contributions, upgrade developer levels, track top contributors, and manage training sessions.
 
