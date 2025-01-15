@@ -38,3 +38,11 @@ This platform serves as an internal community hub for developers at our company.
 
 5. **Access the application**:
    Open your browser and go to `http://localhost:3000` to access the platform.
+
+## Running the Frontend Code
+
+1. **Serve the static files**:
+   The frontend code is located in the `src/frontend` directory. The static files are served using `express.static` in the `src/index.js` file.
+
+2. **Open the frontend**:
+   Open your browser and go to `http://localhost:3000` to access the frontend code.

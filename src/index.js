@@ -20,6 +20,8 @@ app.use('/api/users', userRoutes);
 app.use('/api/contributions', contributionRoutes);
 app.use('/api/trainings', trainingRoutes);
 
+app.use(express.static('src/frontend'));
+
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
