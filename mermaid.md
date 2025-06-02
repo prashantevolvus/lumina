@@ -1,6 +1,7 @@
 
 
 ##test
+```mermaid
 graph TD
     subgraph User Interaction
         A[Bank Business User] --> B(Chat Interface / UI)
@@ -51,6 +52,7 @@ graph TD
         L --> M[Generated Answer]
         M --> B
     end
+```
 
     style MinIO fill:#f9f,stroke:#333,stroke-width:2px
     style Iceberg fill:#a2e,stroke:#333,stroke-width:2px,color:#fff
